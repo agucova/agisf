@@ -6,11 +6,10 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-html.dark {
-  background: #121212;
+  background: #0B101C;
+  color: #fff;
   color-scheme: dark;
+  @apply text-white;
 }
 
 #nprogress {
