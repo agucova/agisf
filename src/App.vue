@@ -5,7 +5,7 @@
 useHead({
   title: 'AGI Safety Fundamentals @ UC Chile',
   meta: [
-    { name: 'description', content: 'Un programa intensivo en seguridad de la IA.' },
+    { name: 'description', content: 'El primer programa de Seguridad en IA en la UC.' },
     {
       name: 'theme-color',
       content: () => '#0D1628',
