@@ -81,10 +81,7 @@ export default defineConfig({
       markdownItSetup(md) {
         // https://prismjs.com/
         md.use(Shiki, {
-          theme: {
-            light: 'vitesse-light',
-            dark: 'vitesse-dark',
-          },
+          theme: 'vitesse-dark',
         })
         md.use(LinkAttributes, {
           matcher: (link: string) => /^https?:\/\//.test(link),
@@ -99,7 +96,7 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
+      includeAssets: ['favicon.svg'],
       manifest: {
         name: 'Vitesse',
         short_name: 'Vitesse',
