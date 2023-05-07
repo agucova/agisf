@@ -45,7 +45,7 @@ defineOptions({
     </p>
     <div mx-auto mt-8 max-w-md flex flex-row justify-center gap-4>
       <a type="button" href="https://www.agisafetyfundamentals.com/ai-alignment-curriculum" class="btn">
-        Currículum
+        Programa
         <div text-white class="i-ic-baseline-arrow-forward" />
       </a>
       <a type="button" href="https://forms.gle/27tTFSXCdDr14Hhv9" from-blue-700 to-violet-600 bg-gradient-to-r btn>
