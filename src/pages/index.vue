@@ -43,7 +43,7 @@ defineOptions({
     <p mb-4>
       Postulaciones hasta este miércoles.
     </p>
-    <div mx-auto mt-8 w-md flex flex-row justify-center gap-4>
+    <div mx-auto mt-8 max-w-md flex flex-row justify-center gap-4>
       <a type="button" href="https://www.agisafetyfundamentals.com/ai-alignment-curriculum" class="btn">
         Currículum
         <div text-white class="i-ic-baseline-arrow-forward" />
