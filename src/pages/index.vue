@@ -41,33 +41,26 @@ defineOptions({
       El primer programa de <br><span font-bold>Seguridad en IA</span> en la UC.
     </p>
     <p mb-4>
-      Postulaciones hasta este miércoles.
+      Postulaciones continuas durante el semestre.
     </p>
-    <div mx-auto mt-8 max-w-md flex flex-row justify-center gap-4>
-      <a type="button" href="https://www.agisafetyfundamentals.com/ai-alignment-curriculum" class="btn">
-        Programa
-        <div text-white class="i-ic-baseline-arrow-forward" />
-      </a>
-      <a type="button" href="https://forms.gle/27tTFSXCdDr14Hhv9" from-blue-700 to-violet-600 bg-gradient-to-r btn>
-        Postular
-        <div text-white class="i-ic-baseline-arrow-forward" />
-      </a>
+    <div mx-auto mt-8 max-w-md flex flex-col gap-4>
+      <div flex flex-row justify-center gap-4>
+        <a type="button" href="https://www.agisafetyfundamentals.com/ai-alignment-curriculum" class="btn">
+          Contenidos
+          <!-- <div text-white class="i-ic-baseline-arrow-forward" /> -->
+        </a>
+        <a type="button" href="https://forms.gle/LQR5TqwHmFnpador8" from-blue-700 to-violet-600 bg-gradient-to-r btn>
+          Postular
+          <!-- <div text-white class="i-ic-baseline-arrow-forward" /> -->
+        </a>
+      </div>
+      <div>
+        <!-- Instagram Button -->
+        <a type="button" href="https://www.instagram.com/aisafety_uc/" red-500 class="] from-[#d62976] to-[#962fbf]" bg-gradient-to-r btn>
+          <!-- <div text-white class="i-mdi-instagram" /> -->
+          Instagram
+        </a>
+      </div>
     </div>
   </div>
-  <!-- <div>
-    <h2 mb-2 text-2xl font-bold>
-      Sobre el programa
-    </h2>
-    <div class="mx-auto max-w-md w-full flex flex-col gap-4">
-      <p>
-        7 semanas de teoría basada en papers de DeepMind, OpenAI y Anthropic
-      </p>
-      <p>
-        4 semanas desarrollando un proyecto de investigación guiado
-      </p>
-      <p>
-        Charlas con expertos internacionales
-      </p>
-    </div>
-  </div> -->
 </template>
